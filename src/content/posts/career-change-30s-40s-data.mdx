@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2620
-affiliate: false
+affiliate: true
 faq:
   - question: "How common is mid-career change in the U.S.?"
     answer: "Per BLS data, the median worker tenure is 4.1 years (2024). The typical American holds 12+ different jobs over a career and changes broad industry/role 3-7 times. Mid-career changes (after 10+ years in a field) are increasingly common — Pew Research finds 50%+ of workers consider major career changes by age 40. Successful mid-career changers cluster in specific patterns: leveraging existing skills into adjacent fields, formal retraining (degree/bootcamp), or industry switch with same role function. Pure career reinvention (lawyer to nurse) is rarer but documented."
@@ -79,6 +79,9 @@ faq:
     answer: "Per LinkedIn Workforce Reports and Indeed Hiring Lab analysis: (1) Adjacent field move — applying current skills in new industry (e.g., teacher → corporate training, engineer → product management). Lowest risk, often immediate income parity. (2) Retraining via bootcamp or specific cert — moderate risk, 12-24 month investment. (3) Career capital approach (Cal Newport) — build deep skill in current field then leverage that mastery into related premium niches. (4) Side hustle to full transition — start new field while still employed, transition when revenue stabilizes. The high-risk approaches: full reinvention without transition support, expensive education without clear job market, pure passion-following without market demand validation."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 Career change in your 30s and 40s is more common, more documented, and often more successful than the cultural narrative suggests. This article walks through what BLS workforce data, LinkedIn Economic Graph research, and Harvard Business Review studies actually show about mid-career transitions — what works, what doesn't, and the realistic financial planning required.
 
@@ -394,3 +397,57 @@ Career change in your 30s and 40s:
 The biggest risk isn't changing — it's staying in a declining trajectory while telling yourself you're being safe. Calculate honestly. Plan deliberately. Execute systematically.
 
 For complementary content, see [bootcamp ROI vs CS degrees](/posts/bootcamp-roi-vs-cs-degree), [online learning platforms compared](/posts/online-learning-platforms-compared), and [salary negotiation data](/posts/salary-negotiation-data-research).
+
+## Career-change books grounded in research, not generic motivation
+
+Career transition research (Herminia Ibarra, Burnett & Evans) gives the field a real evidence base. These three books anchor the practical reading list for 30s/40s career pivots:
+
+<ProductBox
+  name="Designing Your Life (Bill Burnett and Dave Evans)"
+  priceHint="$15-22 — Stanford Life Design Lab framework"
+  pros={[
+    "Stanford-tested framework with concrete exercises",
+    "Distinguishes itself from generic motivation books with structured workbook approach",
+    "Companion workbook available for deeper exercises"
+  ]}
+  cons={[
+    "Some exercises require ~2 hours each — pace over weeks",
+    "Less helpful for someone already certain of next-step direction"
+  ]}
+  href="https://www.amazon.com/s?k=Designing+Your+Life+Burnett+Evans"
+  region="us"
+/>
+
+<ProductBox
+  name="Pivot (Jenny Blake)"
+  priceHint="$15-22 — methodical 4-stage transition framework"
+  pros={[
+    "4-stage pivot framework: Plant, Scan, Pilot, Launch — concrete checkpoints",
+    "Designed for mid-career professionals (not first-job seekers)",
+    "Companion podcast and worksheets extend the system"
+  ]}
+  cons={[
+    "Some readers find the framing repetitive across chapters",
+    "Less academic depth vs Ibarra's research-based approach"
+  ]}
+  href="https://www.amazon.com/s?k=Pivot+Jenny+Blake+career+transition"
+  region="us"
+/>
+
+<ProductBox
+  name="Working Identity (Herminia Ibarra)"
+  priceHint="$22-32 — INSEAD professor's research-based perspective"
+  pros={[
+    "Research-grounded — INSEAD professor with 10+ year career-transition studies",
+    "Counter-intuitive insights (e.g., 'plan less, experiment more')",
+    "Cited by other career-change books as foundational reading"
+  ]}
+  cons={[
+    "Denser than Burnett or Blake — academic tone in places",
+    "Original 2003 edition with 2023 revision — verify which edition you buy"
+  ]}
+  href="https://www.amazon.com/s?k=Working+Identity+Herminia+Ibarra"
+  region="us"
+/>
+
+Start with Designing Your Life if you're early in exploration. Move to Pivot when you have 2-3 directions to evaluate. Read Ibarra last — her counter-intuitive findings prevent the most common pitfalls of late-stage transitions.
