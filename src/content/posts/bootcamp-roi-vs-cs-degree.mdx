@@ -59,7 +59,7 @@ sources:
 visualsCount: 8
 hasVideo: false
 wordCount: 2960
-affiliate: false
+affiliate: true
 faq:
   - question: "What is the average bootcamp placement rate?"
     answer: "CIRR's 2024 aggregate data across reporting bootcamps: 71% placement within 180 days for graduates seeking employment. Top-tier programs (App Academy, Hack Reactor, Codesmith) report 80-90%. Bottom quartile reports 45-55%. The gap is widening — verify CIRR data before enrolling."
@@ -78,6 +78,9 @@ internalLinks:
   - "/about"
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 In 2024, three paths to a software career exist: a bootcamp (~$15K, 3-9 months), a CS degree (~$45-$170K, 4 years), or self-study (free, 12-24 months). The marketing literature for each makes the math sound simple. The actual data — from CIRR, BLS, NCES, Stack Overflow, and Federal Reserve — is more nuanced.
 
@@ -192,3 +195,57 @@ If unable to take 4 years off + don't have $15K: **self-taught** with FreeCodeCa
 If you have any tech-adjacent job already: **self-taught while employed** — the lowest-risk path.
 
 The path that doesn't work well for anyone: enrolling in a non-CIRR bootcamp with unaudited placement claims, or in a private CS program at $173K total cost expecting bootcamp-speed returns. Both have the worst ROI of any combination in the data.
+
+## Resources that close the bootcamp-to-employed gap
+
+Regardless of the bootcamp / degree decision, three books consistently appear in hiring-manager and bootcamp-grad reading lists. They cover the interview, the algorithms, and the systems thinking that separate junior-hire-able from "needs more practice."
+
+<ProductBox
+  name="Cracking the Coding Interview (6th Edition, Gayle McDowell)"
+  priceHint="$30-40 — the industry-standard interview prep"
+  pros={[
+    "150+ practice problems covering FAANG-style questions",
+    "Behavioral interview prep often skipped by competitors",
+    "Companion website with code in multiple languages"
+  ]}
+  cons={[
+    "6th edition is from 2015 — some hiring trends have shifted",
+    "Heavier on whiteboard algorithms than modern system-design rounds"
+  ]}
+  href="https://www.amazon.com/s?k=Cracking+the+Coding+Interview+6th+edition+Gayle+McDowell"
+  region="us"
+/>
+
+<ProductBox
+  name="Designing Data-Intensive Applications (Martin Kleppmann)"
+  priceHint="$45-55 — system design depth"
+  pros={[
+    "Definitive resource for backend/full-stack system design rounds",
+    "Bridges bootcamp practical skills with CS-degree theory gap",
+    "Updated with 2023 edition revisions, still highly relevant"
+  ]}
+  cons={[
+    "Dense reading — best paced over 2-3 months alongside hands-on practice",
+    "Not for absolute beginners — finish a bootcamp first"
+  ]}
+  href="https://www.amazon.com/s?k=Designing+Data-Intensive+Applications+Kleppmann"
+  region="us"
+/>
+
+<ProductBox
+  name="The Pragmatic Programmer (20th Anniversary Edition)"
+  priceHint="$30-45 — career-spanning programming wisdom"
+  pros={[
+    "Updated 2019 edition covers modern practices (DevOps, async)",
+    "Read in junior year, re-read every 2-3 years for new lessons",
+    "Hiring managers cite this as a common bookshelf indicator"
+  ]}
+  cons={[
+    "Some chapters feel general vs language-specific deep dives",
+    "Audio version skips code examples — stick with print/e-book"
+  ]}
+  href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+20th+Anniversary+Edition"
+  region="us"
+/>
+
+For the bootcamp grad path, work through Cracking the Coding Interview during the program, then read Pragmatic Programmer in the first 6 months on the job. Save Kleppmann for the post-junior year before targeting your first system-design-heavy interview round.
