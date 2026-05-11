@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2620
-affiliate: false
+affiliate: true
 faq:
   - question: "How much do successful negotiators gain?"
     answer: "Per PayScale negotiation research and HBR studies, successful negotiation typically increases starting salary 5-15% — a $70,000 offer becomes $73,500-$80,500. Over a 30-year career with typical 3% annual raises, a $5,000 starting boost compounds to ~$280,000 in lifetime additional earnings (assumes raises and bonuses scale proportionally). The single negotiation conversation is one of the highest-ROI work activities possible. Despite this, only 50-60% of professionals report negotiating at all."
@@ -79,6 +79,9 @@ faq:
     answer: "Often more negotiable than base salary. Areas worth negotiating: signing bonus (very negotiable, often pure cash), equity/RSUs (large in tech), vacation days (negotiable in most non-startup environments), remote work flexibility, professional development budget, signing bonus tied to relocation, start date, title. For total comp, treat all components together rather than fixating on base salary alone. A $5,000 lower base + $20,000 signing bonus + 5 extra vacation days may be a significantly better total package."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The research on salary negotiation is both consistent and underused. Successful negotiation typically yields 5-15% increase on initial offers — translating to $250,000-500,000+ in lifetime earnings for typical professionals. Despite this, fewer than 60% of professionals actually negotiate. This article walks through what Harvard Business Review research, PayScale data, and Stanford negotiation studies actually show, and the practical scripts that work.
 
@@ -369,3 +372,57 @@ Salary negotiation is one of the highest-ROI activities in a career. The researc
 Practice the conversation before you have it. Research the market. Negotiate every offer. Get it in writing. Take time to consider before accepting.
 
 For complementary content, see [bootcamp ROI vs CS degrees](/posts/bootcamp-roi-vs-cs-degree) and [professional certifications ROI](/posts/professional-certifications-roi).
+
+## Salary negotiation books worth reading before your next offer
+
+Negotiation research consistently shows preparation accounts for ~60% of negotiated outcomes. These three books cover the tactics, the frameworks, and the conversational scripts that translate research into a higher final number.
+
+<ProductBox
+  name="Never Split the Difference (Chris Voss)"
+  priceHint="$15-22 — former FBI negotiator's playbook"
+  pros={[
+    "Tactical empathy frameworks transfer directly to salary discussions",
+    "Specific scripts for anchoring and counter-anchoring",
+    "Anecdotes are memorable — most readers retain key tactics"
+  ]}
+  cons={[
+    "Hostage-negotiation anecdotes don't always map 1:1 to corporate context",
+    "Some tactics feel manipulative — use the empathy ones, skip the hard pressure ones"
+  ]}
+  href="https://www.amazon.com/s?k=Never+Split+the+Difference+Chris+Voss"
+  region="us"
+/>
+
+<ProductBox
+  name="Getting to Yes (Roger Fisher and William Ury)"
+  priceHint="$12-18 — Harvard Negotiation Project foundation"
+  pros={[
+    "BATNA framework alone is worth the price of the book",
+    "Foundation reading — every other negotiation book references this",
+    "Short (~200 pages), can be re-read before any major negotiation"
+  ]}
+  cons={[
+    "Less directly applicable to salary specifically than Voss",
+    "Some examples feel dated (originally 1981, updated 2011)"
+  ]}
+  href="https://www.amazon.com/s?k=Getting+to+Yes+Fisher+Ury"
+  region="us"
+/>
+
+<ProductBox
+  name="Fearless Salary Negotiation (Josh Doody)"
+  priceHint="$15-25 — pure salary-specific tactical guide"
+  pros={[
+    "Specific scripts for recruiter calls, counter-offers, and pushback",
+    "Email templates for declining first offers without burning bridges",
+    "Author actively updates content based on reader feedback"
+  ]}
+  cons={[
+    "Self-published — less editorial polish than Voss / Fisher",
+    "Tech-industry-heavy examples; transfer requires effort for non-tech roles"
+  ]}
+  href="https://www.amazon.com/s?k=Fearless+Salary+Negotiation+Josh+Doody"
+  region="us"
+/>
+
+Read Voss first for the tactical empathy mindset, then Doody for tech-salary specifics. Use Getting to Yes as the annual refresher — its BATNA framework prevents the single biggest negotiation mistake (no walk-away alternative).
