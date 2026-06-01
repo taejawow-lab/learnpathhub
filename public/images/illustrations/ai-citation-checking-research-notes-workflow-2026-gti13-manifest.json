@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-02",
+  "site": "learnpathhub",
+  "gti13_gate": "available true via direct ComfyUI; sentinel unreachable but direct ComfyUI ok",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "slug": "ai-citation-checking-research-notes-workflow-2026",
+  "post": "src/content/posts/ai-citation-checking-research-notes-workflow-2026.mdx",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-ai-citation-checking-2026-hero.png",
+      "bytes": 1550533,
+      "prompt": "student desk with closed laptop, stack of books, blank index cards, citation checking concept, no screens, no writing",
+      "seed": 202606020300,
+      "prompt_id": "47a10f3a-1fc1-40b5-a9e4-4d1afed1a029",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-ai-citation-checking-2026-01.png",
+      "bytes": 1466721,
+      "prompt": "overhead research notes layout with two columns represented by blank cards, no text",
+      "seed": 202606020301,
+      "prompt_id": "1d31e483-f096-402c-b126-b174ad6d4bbc",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-ai-citation-checking-2026-02.png",
+      "bytes": 1231283,
+      "prompt": "student hand placing blank paper slips beside closed book with completely blank pages, citation verification concept, no printed words, no numbers",
+      "seed": 202606029302,
+      "prompt_id": "aedf962c-84b0-4a87-8c05-64a5180d045a",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_regen_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_note": "regenerated after visual QA rejected unsafe cord/text/number risk"
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-ai-citation-checking-2026-03.png",
+      "bytes": 1551703,
+      "prompt": "library desk with closed laptop and blank citation cards, no screens, no logos",
+      "seed": 202606020303,
+      "prompt_id": "d12121a8-3d5f-4080-b2a6-3c2d55bacb52",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-ai-citation-checking-2026-04.png",
+      "bytes": 1580758,
+      "prompt": "clean study desk with blank flashcards arranged in spaced repetition piles, closed plain notebook, pencils, soft daylight, no electronic devices, no clock, no timer, no printed material",
+      "seed": 202606029404,
+      "prompt_id": "68834bb2-83b8-4231-b9f8-8c26322d2bad",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_regen_learnpathhub_04b_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_note": "second regeneration after visual QA rejected clock/number risk"
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-ai-citation-checking-2026-05.png",
+      "bytes": 1530978,
+      "prompt": "AI use log concept with closed notebook and blank sticky notes, no handwriting",
+      "seed": 202606020305,
+      "prompt_id": "f00d2eb4-928e-4afb-bdf1-f1a90e290504",
+      "raw_output": {
+        "filename": "hermes_batchb_20260602_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    }
+  ],
+  "visual_qa": "PASS after contact-sheet inspection; regenerated rejected images where needed",
+  "qa_regenerated": [
+    {
+      "site": "kurashinotes",
+      "suffix": "01",
+      "seed": 202606029201
+    },
+    {
+      "site": "learnpathhub",
+      "suffix": "02",
+      "seed": 202606029302
+    },
+    {
+      "site": "learnpathhub",
+      "suffix": "04",
+      "seed": 202606029304
+    },
+    {
+      "site": "learnpathhub",
+      "suffix": "04",
+      "seed": 202606029404,
+      "round": 2
+    }
+  ]
+}
