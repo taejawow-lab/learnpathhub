@@ -1,0 +1,104 @@
+{
+  "date": "2026-06-03",
+  "site": "learnpathhub",
+  "slug": "summer-course-ai-policy-tracker-study-plan-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-ai-policy-tracker-2026-hero.png",
+      "bytes": 1563107,
+      "prompt": "student desk with summer course materials, closed laptop, blank index cards, no writing",
+      "seed": 202606030300,
+      "prompt_id": "3916c8cb-fad1-4003-aa94-f7b4cf09b74b",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-ai-policy-tracker-2026-01.png",
+      "bytes": 1675355,
+      "prompt": "overhead policy tracker concept with blank cards arranged in columns, no text",
+      "seed": 202606030301,
+      "prompt_id": "a21c7190-69b8-4bb7-bf0d-0f6d1fee7582",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-ai-policy-tracker-2026-02.png",
+      "bytes": 1260181,
+      "prompt": "student writing in closed style notebook with blank visible pages and books, no readable words",
+      "seed": 202606030302,
+      "prompt_id": "588b0971-13e0-4983-b1c9-e0e9799fcb5e",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-ai-policy-tracker-2026-03.png",
+      "bytes": 1385000,
+      "prompt": "student asking instructor question concept with closed laptop, blank sticky notes, envelope, pen, no screen visible, no UI, no text, realistic desk photo",
+      "seed": 202606039004,
+      "prompt_id": "dd29637d-87bc-483a-b371-cb7fe6c20afb",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_replacement": true
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-ai-policy-tracker-2026-04.png",
+      "bytes": 1585226,
+      "prompt": "retrieval practice scene with blank flashcards and timer face turned away, no numbers",
+      "seed": 202606030304,
+      "prompt_id": "7eee4390-eb4e-4ff4-9515-784c541e328f",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-ai-policy-tracker-2026-05.png",
+      "bytes": 1593759,
+      "prompt": "weekly study audit with folders, blank checklist cards, no handwriting",
+      "seed": 202606030305,
+      "prompt_id": "c17ddf39-2019-4486-9f0e-0559e45b18a9",
+      "raw_output": {
+        "filename": "hermes_batchb_20260603_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260603-learnpathhub-contact-sheet-final.jpg",
+  "visual_qa": "final contact sheet reviewed after QA replacements; rejected branded/text/UI/wrong cable images were replaced",
+  "adsense_readiness": "source-backed helpful content, practical tables/checklists, no affiliate filler, AI image provenance committed"
+}
