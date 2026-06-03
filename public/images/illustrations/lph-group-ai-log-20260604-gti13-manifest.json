@@ -1,0 +1,105 @@
+{
+  "date": "2026-06-04",
+  "site": "learnpathhub",
+  "slug": "group-project-ai-collaboration-log-integrity-plan-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-group-ai-log-20260604-hero.png",
+      "bytes": 1591555,
+      "prompt": "diverse college study group around table with blank notebooks and laptops showing blank screens, no text no logos",
+      "seed": 202606040300,
+      "prompt_id": "f7718b4f-e5f5-48ea-9352-b764716eec11",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-group-ai-log-20260604-01.png",
+      "bytes": 1635506,
+      "prompt": "diverse college study group around table with blank notebooks and laptops showing blank screens, no text no logos",
+      "seed": 202606040301,
+      "prompt_id": "91469e19-0490-4894-8560-c1610e967d25",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-group-ai-log-20260604-02.png",
+      "bytes": 1492151,
+      "prompt": "student contribution log represented by blank index cards and closed laptop, no handwriting no readable text no logo",
+      "seed": 202606050376,
+      "prompt_id": "69810938-c8ae-4f59-aca0-c07a9b31b8c6",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_regen_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-group-ai-log-20260604-03.png",
+      "bytes": 1432375,
+      "prompt": "student team reviewing blank source cards and colored markers on table, all papers blank, no printed text no photos no logo",
+      "seed": 202606050377,
+      "prompt_id": "35758cdb-f4ca-45ee-95b7-fce766090a7a",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_regen_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-group-ai-log-20260604-04.png",
+      "bytes": 1390132,
+      "prompt": "group meeting with roles represented by colored sticky notes with no writing, no text",
+      "seed": 202606040304,
+      "prompt_id": "23ecadcd-180f-4a90-bcdf-65629a3a3164",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-group-ai-log-20260604-05.png",
+      "bytes": 1432492,
+      "prompt": "student asking instructor question after class with blank syllabus pages on desk, no readable text",
+      "seed": 202606040305,
+      "prompt_id": "3795fb64-7533-45a9-8f9c-e7cb76abf543",
+      "raw_output": {
+        "filename": "hermes_batchb_20260604_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260604-learnpathhub-contact-sheet-final.jpg",
+  "visual_qa": "regenerated QA rejects; pending final contact sheet review",
+  "adsense_readiness": "helpful source-backed guide, practical tables/checklists, no affiliate filler, AI image provenance committed"
+}
