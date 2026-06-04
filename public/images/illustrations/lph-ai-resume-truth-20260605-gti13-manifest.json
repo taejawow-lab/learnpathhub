@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-05",
+  "site": "learnpathhub",
+  "slug": "ai-resume-portfolio-truthfulness-log-career-learning-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-ai-resume-truth-20260605-hero.png",
+      "bytes": 1580714,
+      "prompt": "career learner at desk with closed laptop, blank portfolio folder, blank index cards turned over, no screens visible, no readable text, no logos, realistic editorial photo",
+      "seed": 202606059009,
+      "prompt_id": "249f49d9-c8d9-4d05-bd91-be88feb3b1f0",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-ai-resume-truth-20260605-01.png",
+      "bytes": 1854725,
+      "prompt": "student reviewing project artifacts with closed laptop and blank colored cards face down, no papers with text, no screen, no logos, realistic editorial photo",
+      "seed": 202606059010,
+      "prompt_id": "33d5cb97-6247-45e6-9416-3b46831e557f",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-ai-resume-truth-20260605-02.png",
+      "bytes": 1589648,
+      "prompt": "career mentor and student meeting with blank folder and plain notebook closed, no forms, no writing, no readable text, realistic editorial photo",
+      "seed": 202606059011,
+      "prompt_id": "88c19c8d-ee71-4ee4-a8e9-495d4e133156",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-ai-resume-truth-20260605-03.png",
+      "bytes": 1730740,
+      "prompt": "mentor conversation at table with closed laptop and blank portfolio folder, people hands natural, no screen text no papers with writing, realistic editorial photo",
+      "seed": 202606059012,
+      "prompt_id": "89e046e6-192f-43cb-be10-33e98135fc1c",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-ai-resume-truth-20260605-04.png",
+      "bytes": 2515899,
+      "prompt": "plain cork board with exactly six large blank solid-color index cards pinned neatly, absolutely no writing no marks no headings no letters, realistic editorial photo",
+      "seed": 202606059501,
+      "prompt_id": "29785a67-e0b5-4b4a-8806-f53ae39a8a41",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa2_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": "qa2"
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-ai-resume-truth-20260605-05.png",
+      "bytes": 1190388,
+      "prompt": "interview practice desk with blank whiteboard turned away and closed portfolio folder, no resume text, no screen text, realistic editorial photo",
+      "seed": 202606059014,
+      "prompt_id": "4d51651d-c6bd-455e-a3e5-3502968f15b7",
+      "raw_output": {
+        "filename": "hermes_batchb_20260605_qa_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "qa_regenerated": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260605-learnpathhub-contact-sheet.jpg",
+  "visual_qa": "final contact sheet regenerated; QA2 replaced remaining unsafe cord/text-like card issues",
+  "adsense_readiness": "helpful source-backed guide, practical tables/checklists, no affiliate filler, AI image provenance committed"
+}
