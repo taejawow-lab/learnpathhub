@@ -1,0 +1,153 @@
+{
+  "date": "2026-06-06",
+  "site": "learnpathhub",
+  "slug": "summer-online-course-ai-study-plan-verification-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-summer-ai-course-20260606-hero.png",
+      "bytes": 1376377,
+      "prompt": "student planning summer online course at desk with laptop blank screen, no text no logos",
+      "seed": 202606060300,
+      "prompt_id": "7e39617f-72e0-4ed6-b6d6-cd34e30c6978",
+      "raw_output": {
+        "filename": "hermes_batchb_20260606_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, medical device details, scannable pattern"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-summer-ai-course-20260606-01.png",
+      "bytes": 1330856,
+      "prompt": "student planning summer online course at desk with laptop blank screen, no text no logos",
+      "seed": 202606060301,
+      "prompt_id": "fe5e3271-7e0d-43e8-8360-3f4cb59ec09d",
+      "raw_output": {
+        "filename": "hermes_batchb_20260606_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, medical device details, scannable pattern"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-summer-ai-course-20260606-02.png",
+      "bytes": 1428410,
+      "prompt": "weekly study blocks shown as blank color cards on desk, no writing no numbers",
+      "seed": 202606060302,
+      "prompt_id": "7ac46b5a-1e40-43c1-9785-e1e18aff0fc4",
+      "raw_output": {
+        "filename": "hermes_batchb_20260606_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, medical device details, scannable pattern"
+      }
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-summer-ai-course-20260606-03.png",
+      "bytes": 1572557,
+      "prompt": "student doing retrieval practice with closed notes and blank flashcards, no readable text",
+      "seed": 202606060303,
+      "prompt_id": "b7bd2623-7fe2-4001-bc7a-f10d043db8de",
+      "raw_output": {
+        "filename": "hermes_batchb_20260606_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, medical device details, scannable pattern"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-summer-ai-course-20260606-04.png",
+      "bytes": 1217172,
+      "prompt": "online lecture setup with blank screen, notebook open with no writing, calm light",
+      "seed": 202606060304,
+      "prompt_id": "42cc7f2f-3bbd-4697-8a14-2fc726d504f9",
+      "raw_output": {
+        "filename": "hermes_batchb_20260606_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, medical device details, scannable pattern"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-summer-ai-course-20260606-05.png",
+      "bytes": 1359164,
+      "prompt": "student source checking at library desk with laptop completely blank white screen, books closed, notebook blank, no face closeup, no text anywhere",
+      "seed": 202606069003,
+      "prompt_id": "b7d9b95c-13ac-41ce-b2f3-f5020b297d18",
+      "raw_output": {
+        "filename": "hermes_batchb_20260606_qa_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, medical device details, scannable pattern"
+      },
+      "qa_regenerated": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260606-learnpathhub-contact-sheet.jpg",
+  "visual_qa": "QA-regenerated unsafe/wrong/text-like images; final contact sheet pending review",
+  "adsense_readiness": "source-backed practical guide, 8 citations, internal link, FAQ/schema, no affiliate filler, GTI13 provenance committed"
+}
