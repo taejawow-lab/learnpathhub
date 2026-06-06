@@ -1,0 +1,152 @@
+{
+  "date": "2026-06-07",
+  "site": "learnpathhub",
+  "slug": "ai-flashcard-spaced-repetition-final-exam-plan-2026",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-ai-flashcard-20260607-hero.png",
+      "bytes": 1543183,
+      "prompt": "student reviewing blank flashcards beside laptop with blank screen, no text no logos",
+      "seed": 202606070300,
+      "prompt_id": "440045ad-8ba3-4542-924c-d9bd0ad51677",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-ai-flashcard-20260607-01.png",
+      "bytes": 1259286,
+      "prompt": "weekly spaced repetition cards arranged as blank colored cards, no writing no numbers",
+      "seed": 202606070301,
+      "prompt_id": "a6d3a83c-ecc0-45a2-a9f6-1c9cac3694a1",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-ai-flashcard-20260607-02.png",
+      "bytes": 1527951,
+      "prompt": "student answering from memory with closed notebook and blank cards",
+      "seed": 202606070302,
+      "prompt_id": "14f18932-0c40-4d18-a757-9483c49573bc",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      }
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-ai-flashcard-20260607-03.png",
+      "bytes": 1420735,
+      "prompt": "study desk with course textbook, blank laptop screen, and simple timer without numbers",
+      "seed": 202606070303,
+      "prompt_id": "2179bed0-5917-4c3a-8f7c-5c6c514c4ceb",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-ai-flashcard-20260607-04.png",
+      "bytes": 1435087,
+      "prompt": "student checking AI flashcards against source book with blank sticky notes",
+      "seed": 202606070304,
+      "prompt_id": "f0ea611e-5b9b-4ce4-8870-28a3f11febf6",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-ai-flashcard-20260607-05.png",
+      "bytes": 1367201,
+      "prompt": "end of week exam review with tidy desk and blank progress board",
+      "seed": 202606070305,
+      "prompt_id": "8d65b781-3705-470f-afef-b13a3e8f22d7",
+      "raw_output": {
+        "filename": "hermes_batchb_20260607_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, child face closeup, scannable pattern"
+      }
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260607-learnpathhub-contact-sheet.jpg",
+  "visual_qa": "visual QA pass on first contact sheet; no rejected images",
+  "adsense_readiness": "source-backed practical guide, 8 citations, internal link, FAQ/schema, no affiliate filler, GTI13 provenance committed"
+}
