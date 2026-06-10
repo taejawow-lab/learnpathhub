@@ -1,73 +1,49 @@
 ---
-import ThemeToggle from './ThemeToggle.astro';
-
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
-const edition = import.meta.env.PUBLIC_SITE_EDITION || '';
-
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'LearnPath Hub';
+const edition = import.meta.env.PUBLIC_SITE_EDITION || 'Learning science · AI study · Career skills';
 const navItems = [
-  { label: 'Posts', href: '/posts/' },
-  { label: 'Categories', href: '/categories/' },
+  { label: 'Articles', href: '/posts/' },
+  { label: 'Library', href: '/categories/' },
   { label: 'Search', href: '/search/' },
   { label: 'About', href: '/about' },
-  { label: 'Editorial', href: '/editorial-process' },
+  { label: 'Newsletter', href: '/newsletter/' },
 ];
 ---
-
-<!-- modern editorial header: token-driven, mobile discoverable, no client JS -->
-<header class="sticky top-0 z-50 backdrop-blur-xl bg-background/90 border-b border-border/70 shadow-[0_1px_0_rgba(15,23,42,0.03)]">
-  {edition && (
-    <div class="border-b border-border/50 bg-muted/25">
-      <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-8 flex items-center justify-between gap-3 text-[10px] uppercase tracking-[0.22em] text-muted-foreground font-mono">
-        <span class="truncate">{edition}</span>
-        <span class="hidden sm:inline">A data-grounded publication</span>
-      </div>
-    </div>
-  )}
-
-  <div class="container mx-auto px-4 sm:px-6 md:px-10 min-h-[68px] md:min-h-20 flex items-center justify-between gap-4">
-    <a href="/" class="group flex min-w-0 items-center gap-3 rounded-md py-2 focus-visible:outline-ring" aria-label={`${siteName} home`}>
-      <span class="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-2xl bg-primary text-primary-foreground shadow-sm ring-1 ring-border/30" aria-hidden="true">
-        <span class="text-sm font-bold" style="font-family: var(--font-display);">{siteName.slice(0, 1).toUpperCase()}</span>
-      </span>
-      <span
-        class="truncate text-2xl md:text-3xl font-bold tracking-[-0.025em] leading-none transition-colors group-hover:text-primary"
-        style="font-family: var(--font-display);"
-      >
-        {siteName}
+<header class="site-header-lph">
+  <div class="lph-wrap flex min-h-20 items-center justify-between gap-4">
+    <a href="/" class="group flex min-w-0 items-center gap-3" aria-label={`${siteName} home`}>
+      <img src="/assets/lph-logo.svg" alt="" class="h-11 w-11 rounded-2xl lph-logo-mark p-2" />
+      <span class="leading-none">
+        <span class="block text-2xl font-semibold tracking-[-0.03em]" style="font-family:var(--ff-serif)">{siteName}</span>
+        <span class="hidden text-[11px] uppercase tracking-[0.18em] text-muted-foreground sm:block">{edition}</span>
       </span>
     </a>
-
-    <div class="flex items-center gap-3 md:gap-6">
-      <nav aria-label="Primary navigation" class="hidden md:block">
-        <ul class="flex items-center gap-1 text-xs lg:text-sm uppercase tracking-[0.12em]">
-          {navItems.map((item) => (
-            <li>
-              <a
-                href={item.href}
-                class="rounded-full px-3 py-2 text-foreground/72 hover:bg-muted hover:text-foreground focus-visible:outline-ring transition-colors"
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <a href="/search/" class="hidden sm:inline-flex md:hidden min-h-10 items-center rounded-full border border-border bg-card px-4 text-xs font-semibold uppercase tracking-[0.12em] text-foreground/80 shadow-sm">
-        Search
-      </a>
-      <ThemeToggle />
+    <nav aria-label="Primary navigation" class="hidden items-center gap-1 lg:flex">
+      {navItems.map((item) => <a href={item.href} class="rounded-full px-3 py-2 text-sm font-bold text-foreground/75 hover:bg-muted hover:text-foreground">{item.label}</a>)}
+    </nav>
+    <div class="flex items-center gap-2">
+      <button type="button" class="lph-btn-soft hidden sm:inline-flex" data-lph-search-open aria-label="Open search">Search <span class="text-xs opacity-60">⌘K</span></button>
+      <a href="/newsletter/" class="lph-btn hidden md:inline-flex">Subscribe</a>
+      <button type="button" class="lph-btn-soft h-11 w-11 px-0" data-lph-theme aria-label="Toggle theme">◐</button>
+      <a href="/saved/" class="lph-btn-soft h-11 px-3" aria-label="Saved articles">★ <span class="lph-saved-badge" data-lph-saved-count hidden>0</span></a>
+      <button type="button" class="lph-btn-soft h-11 px-3 lg:hidden" data-lph-menu-open aria-label="Open menu">Menu</button>
     </div>
   </div>
-
-  <nav aria-label="Mobile primary navigation" class="md:hidden border-t border-border/55 bg-background/95">
-    <ul class="container mx-auto flex gap-2 overflow-x-auto px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.12em] [-webkit-overflow-scrolling:touch]">
-      {navItems.map((item) => (
-        <li class="shrink-0">
-          <a href={item.href} class="inline-flex min-h-10 items-center rounded-full border border-border/70 bg-card px-4 text-foreground/75 shadow-sm transition-colors hover:bg-muted hover:text-foreground focus-visible:outline-ring">
-            {item.label}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </nav>
+  <div class="lph-search-overlay" data-lph-search-overlay>
+    <div class="lph-search-panel">
+      <div class="flex items-center justify-between gap-3 border-b border-border p-4">
+        <strong class="font-mono text-xs uppercase tracking-[0.18em]">Search LearnPath Hub</strong>
+        <button type="button" class="chip" data-lph-search-close>Close</button>
+      </div>
+      <div class="p-4">
+        <input data-lph-search-input type="search" placeholder="retrieval practice, AI tutor, career switch..." class="w-full rounded-2xl border border-border bg-background px-4 py-4 text-lg outline-none focus:border-primary" />
+        <div class="mt-4 grid gap-3" data-lph-search-results></div>
+      </div>
+    </div>
+  </div>
+  <div class="lph-drawer-backdrop" data-lph-drawer-backdrop></div>
+  <aside class="lph-drawer" data-lph-drawer aria-label="Mobile menu">
+    <div class="mb-8 flex items-center justify-between"><strong style="font-family:var(--ff-serif);font-size:1.35rem">Menu</strong><button type="button" class="chip" data-lph-menu-close>Close</button></div>
+    <nav class="grid gap-3">{navItems.map((item) => <a class="lph-card p-4 text-lg font-bold" href={item.href}>{item.label}</a>)}</nav>
+  </aside>
 </header>

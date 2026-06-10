@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { getCollection } from 'astro:content';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
@@ -40,6 +41,16 @@ const defaultSchema = {
   description,
 };
 const finalSchema = schema || defaultSchema;
+
+const postsForSearch = (await getCollection('posts')).filter((post) => !post.data.draft).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const searchIndex = postsForSearch.map((post) => ({
+  title: post.data.title,
+  description: post.data.description,
+  category: post.data.category || 'Article',
+  tags: post.data.tags || [],
+  url: `/posts/${post.slug}/`,
+  date: post.data.pubDate?.toISOString?.().slice(0, 10) || '',
+}));
 ---
 
 <!doctype html>
@@ -131,18 +142,21 @@ const finalSchema = schema || defaultSchema;
     <!-- Theme toggle script (FOUC 방지) -->
     <script is:inline>
       (function () {
-        const theme = localStorage.getItem('theme') ||
+        const theme = localStorage.getItem('lph-theme') ||
                       (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
         document.documentElement.setAttribute('data-theme', theme);
         document.documentElement.classList.toggle('dark', theme === 'dark');
       })();
     </script>
   </head>
-  <body class="min-h-screen flex flex-col">
+  <body class="min-h-screen flex flex-col" data-nav={title}>
+    <div class="lph-progress" data-lph-progress></div>
     <Header />
     <main class="flex-1">
       <slot />
     </main>
     <Footer />
+    <script type="application/json" data-lph-search-index set:html={JSON.stringify(searchIndex)}></script>
+    <script defer src="/assets/lph-app.js"></script>
   </body>
 </html>

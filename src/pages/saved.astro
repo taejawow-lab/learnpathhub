@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Saved Articles" description="Saved LearnPath Hub articles on this device.">
+  <section class="lph-wrap py-16 md:py-24">
+    <p class="lph-eyebrow">Local reading list</p>
+    <h1 class="mt-4 text-5xl md:text-7xl" style="font-family:var(--ff-serif)">Saved articles</h1>
+    <p class="mt-5 max-w-2xl text-lg" style="color:var(--ink-2)">Bookmarks are stored only in this browser with <code>localStorage</code>. Open saved articles from cards you marked across the site.</p>
+    <div class="lph-card mt-10 p-6"><p><span data-lph-saved-count>0</span> saved item(s) on this device. Use the Save button on any article card or article page to update this count.</p><a class="lph-btn-soft mt-4" href="/posts/">Browse the library</a></div>
+  </section>
+</BaseLayout>
