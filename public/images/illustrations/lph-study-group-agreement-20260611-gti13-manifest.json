@@ -1,0 +1,82 @@
+{
+  "site": "learnpathhub",
+  "slug": "study-group-agreement-ai-integrity-2026",
+  "date": "2026-06-11",
+  "assets": [
+    {
+      "filename": "lph-study-group-agreement-20260611-hero.png",
+      "render_url": "/images/illustrations/lph-study-group-agreement-20260611-hero.png",
+      "prompt": "diverse adult study group around table with blank notebooks and closed laptops no text",
+      "seed": 6110300,
+      "prompt_id": "7758f2f3-084c-4608-b83f-7d26d360548f",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "filename": "lph-study-group-agreement-20260611-01.png",
+      "render_url": "/images/illustrations/lph-study-group-agreement-20260611-01.png",
+      "prompt": "two students creating blank agreement cards with no readable writing",
+      "seed": 6110301,
+      "prompt_id": "998f8172-e065-41f9-8d43-f04fa42cbb4d",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "filename": "lph-study-group-agreement-20260611-02.png",
+      "render_url": "/images/illustrations/lph-study-group-agreement-20260611-02.png",
+      "prompt": "quiet library study session with phones face down and blank screens",
+      "seed": 6110302,
+      "prompt_id": "df70519f-3fc4-4274-aba2-214315a271f0",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "filename": "lph-study-group-agreement-20260611-03.png",
+      "render_url": "/images/illustrations/lph-study-group-agreement-20260611-03.png",
+      "prompt": "accountability check-in with timer and plain sticky notes no words",
+      "seed": 6110303,
+      "prompt_id": "2c0a6bed-3af7-43bc-85ac-2c76faa89eb7",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted"
+    },
+    {
+      "filename": "lph-study-group-agreement-20260611-04.png",
+      "render_url": "/images/illustrations/lph-study-group-agreement-20260611-04.png",
+      "prompt": "privacy-safe notes organization with folders and blank cards no readable text",
+      "seed": 6110304,
+      "prompt_id": "7efca12c-504d-48c8-bf8d-738f3dcc8fd7",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "width": 1536,
+      "height": 864,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "host": "gti13-direct-comfyui-redacted"
+    }
+  ]
+}
