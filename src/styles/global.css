@@ -196,8 +196,8 @@
 
 /* LearnPath Hub redesign layer */
 @layer base {
-  html { background: var(--paper); }
-  body { background: radial-gradient(circle at top right, color-mix(in srgb, var(--sage) 16%, transparent), transparent 36rem), linear-gradient(180deg, var(--paper), var(--paper)); color: var(--ink); font-family: var(--ff-sans); }
+  html { background: var(--paper); overflow-x: hidden; }
+  body { overflow-x: hidden; background: radial-gradient(circle at top right, color-mix(in srgb, var(--sage) 16%, transparent), transparent 36rem), linear-gradient(180deg, var(--paper), var(--paper)); color: var(--ink); font-family: var(--ff-sans); }
   h1,h2,h3,h4,h5,h6 { font-family: var(--ff-serif); font-weight: 520; letter-spacing: -.025em; }
 }
 @layer components {
@@ -214,8 +214,8 @@
   .lph-search-overlay { position:fixed; inset:0; z-index:90; display:none; background:rgba(16,22,17,.52); backdrop-filter:blur(8px); padding:8vh 1rem; }
   .lph-search-overlay.is-open { display:block; }
   .lph-search-panel { max-width:760px; margin:auto; border:1px solid var(--line); border-radius:28px; background:var(--surface); color:var(--ink); box-shadow:0 30px 80px -40px rgba(0,0,0,.55); overflow:hidden; }
-  .lph-drawer { position:fixed; inset:0 0 0 auto; z-index:91; width:min(420px,88vw); transform:translateX(105%); transition:transform .24s ease; background:var(--surface); border-left:1px solid var(--line); padding:24px; }
-  .lph-drawer.is-open { transform:translateX(0); }
+  .lph-drawer { position:fixed; inset:0 0 0 auto; z-index:91; width:min(420px,88vw); transform:translateX(105%); visibility:hidden; pointer-events:none; transition:transform .24s ease, visibility .24s ease; background:var(--surface); border-left:1px solid var(--line); padding:24px; }
+  .lph-drawer.is-open { transform:translateX(0); visibility:visible; pointer-events:auto; }
   .lph-drawer-backdrop { position:fixed; inset:0; z-index:90; display:none; background:rgba(16,22,17,.44); }
   .lph-drawer-backdrop.is-open { display:block; }
   .lph-saved-badge { min-width:1.35rem; min-height:1.35rem; border-radius:999px; background:var(--clay); color:var(--surface); display:inline-flex; align-items:center; justify-content:center; font-size:.72rem; font-weight:800; }
