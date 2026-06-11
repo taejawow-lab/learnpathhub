@@ -11,7 +11,7 @@ const posts = (await getCollection('posts'))
 const featuredPosts = posts.slice(0, 3);
 const recentPosts = posts.slice(3, 12);
 
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
+const siteName = import.meta.env.PUBLIC_SITE_NAME || 'LearnPath Hub';
 const siteDescription = import.meta.env.PUBLIC_SITE_DESCRIPTION || '';
 const heroTitle = import.meta.env.PUBLIC_SITE_HERO_TITLE || siteName;
 const heroSubtitle = import.meta.env.PUBLIC_SITE_HERO_SUBTITLE || siteDescription;
