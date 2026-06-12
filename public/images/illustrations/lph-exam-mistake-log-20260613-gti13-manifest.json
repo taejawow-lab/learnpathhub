@@ -1,0 +1,201 @@
+{
+  "date": "2026-06-13",
+  "site": "learnpathhub",
+  "slug": "exam-mistake-log-retake-study-plan-2026",
+  "host": "gti13",
+  "endpoint": "direct-gti13-comfyui-redacted",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-exam-mistake-log-20260613-hero.png",
+      "url": "/images/illustrations/lph-exam-mistake-log-20260613-hero.png",
+      "bytes": 1783862,
+      "width": 1536,
+      "height": 864,
+      "prompt": "student desk with blank mistake log notebook, closed laptop, pencils, no readable text",
+      "seed": 202606130300,
+      "prompt_id": "98f1ec67-c8ce-4a15-b323-e62bbf426fba",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, readable calendar, forms, receipts, documents, child face closeup, license plate, brand marks"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-exam-mistake-log-20260613-01.png",
+      "url": "/images/illustrations/lph-exam-mistake-log-20260613-01.png",
+      "bytes": 1366505,
+      "width": 1536,
+      "height": 864,
+      "prompt": "study planning scene with colored blank sticky notes and timer with no numbers visible",
+      "seed": 202606130301,
+      "prompt_id": "365ad5f5-a1f2-45ea-b389-91bae70611a4",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, readable calendar, forms, receipts, documents, child face closeup, license plate, brand marks"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-exam-mistake-log-20260613-02.png",
+      "url": "/images/illustrations/lph-exam-mistake-log-20260613-02.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1454837,
+      "prompt": "study desk with closed blank workbook face down, plain pencil, no visible writing, no hands, no screen, no text",
+      "seed": 202606139302,
+      "prompt_id": "0c9b2791-14ae-46b1-b384-2f02bb603e8c",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_regen_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated_final": true,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 32,
+        "cfg": 4.4,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand, labels, screen text, fake UI, calendar, document writing, forms, receipts, readable book page, distorted hands, people faces, unsafe wiring, placeholder, cartoon, low quality, office desk unrelated scene, plant macro, outdoor nature macro"
+      }
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-exam-mistake-log-20260613-03.png",
+      "url": "/images/illustrations/lph-exam-mistake-log-20260613-03.png",
+      "bytes": 1638493,
+      "width": 1536,
+      "height": 864,
+      "prompt": "privacy safe study folder with sealed envelope and blank index cards, no writing",
+      "seed": 202606130303,
+      "prompt_id": "6f32dc08-240e-47e2-ab95-03e48ffc13cb",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, readable calendar, forms, receipts, documents, child face closeup, license plate, brand marks"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-exam-mistake-log-20260613-04.png",
+      "url": "/images/illustrations/lph-exam-mistake-log-20260613-04.png",
+      "bytes": 1245978,
+      "width": 1536,
+      "height": 864,
+      "prompt": "small study group table with blank notebooks and no screens, calm academic scene",
+      "seed": 202606130304,
+      "prompt_id": "2470ec8e-a804-4c07-987c-067185f16102",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, readable calendar, forms, receipts, documents, child face closeup, license plate, brand marks"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-exam-mistake-log-20260613-05.png",
+      "url": "/images/illustrations/lph-exam-mistake-log-20260613-05.png",
+      "bytes": 1341755,
+      "width": 1536,
+      "height": 864,
+      "prompt": "weekly retake plan with closed laptop and blank wall board, no dates no text",
+      "seed": 202606130305,
+      "prompt_id": "e42b205e-8851-41a3-96b2-abd891ad5571",
+      "raw_output": {
+        "filename": "hermes_batchb_20260613_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, readable calendar, forms, receipts, documents, child face closeup, license plate, brand marks"
+      }
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260613-learnpathhub-contact-sheet.jpg",
+  "visual_qa": "final contact sheet reviewed after regeneration; rejected text/mismatch panels replaced",
+  "source_validation": [
+    {
+      "url": "https://www.apa.org/science/about/psa/2016/06/learning-memory",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.retrievalpractice.org/why-it-works",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.learningscientists.org/downloadable-materials",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://studentprivacy.ed.gov/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://studentprivacy.ed.gov/ferpa",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://www.academicintegrity.org/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://learningcenter.unc.edu/tips-and-tools/time-management/",
+      "status": 200,
+      "ok": true
+    },
+    {
+      "url": "https://learningcenter.unc.edu/tips-and-tools/the-study-cycle/",
+      "status": 200,
+      "ok": true
+    }
+  ],
+  "adsense_readiness": "8 sources, internal links, FAQ/schema, no affiliate filler, helpful-content practical workflow"
+}
