@@ -1,0 +1,158 @@
+{
+  "date": "2026-06-14",
+  "site": "learnpathhub",
+  "slug": "ai-office-hours-question-bank-course-forum-2026",
+  "endpoint": "GTI13 direct ComfyUI (redacted in user reports)",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-ai-office-hours-20260614-hero.png",
+      "url": "/images/illustrations/lph-ai-office-hours-20260614-hero.png",
+      "bytes": 1413386,
+      "prompt": "student preparing office hours questions with blank note cards and closed laptop, no text no logos",
+      "seed": 202606140300,
+      "prompt_id": "07affd63-65f4-43c7-9d41-614833ec1a72",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, unsafe food handling, medical device details, scannable pattern, child face closeup, car dashboard text, license plate"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-ai-office-hours-20260614-01.png",
+      "url": "/images/illustrations/lph-ai-office-hours-20260614-01.png",
+      "bytes": 1410925,
+      "prompt": "course forum planning desk with blank sticky notes and textbooks, no writing",
+      "seed": 202606140301,
+      "prompt_id": "5b95e4ce-74aa-4c1b-91aa-d9aaa3b32064",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, unsafe food handling, medical device details, scannable pattern, child face closeup, car dashboard text, license plate"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-ai-office-hours-20260614-02.png",
+      "url": "/images/illustrations/lph-ai-office-hours-20260614-02.png",
+      "bytes": 1439013,
+      "prompt": "student comparing attempted solution and blank question cards, no readable marks",
+      "seed": 202606140302,
+      "prompt_id": "bf236d6a-3940-4ef6-b615-eba4511a8e2e",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, unsafe food handling, medical device details, scannable pattern, child face closeup, car dashboard text, license plate"
+      }
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-ai-office-hours-20260614-03.png",
+      "url": "/images/illustrations/lph-ai-office-hours-20260614-03.png",
+      "bytes": 1633620,
+      "prompt": "small study group discussing questions around table with blank papers, no text",
+      "seed": 202606140303,
+      "prompt_id": "c66f74e7-e290-48a9-92ca-8bc1eab8eb48",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, unsafe food handling, medical device details, scannable pattern, child face closeup, car dashboard text, license plate"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-ai-office-hours-20260614-04.png",
+      "url": "/images/illustrations/lph-ai-office-hours-20260614-04.png",
+      "bytes": 1059125,
+      "prompt": "instructor office hours prep scene with laptop dark blank screen and notebook no writing",
+      "seed": 202606140304,
+      "prompt_id": "7085be59-96a6-4fda-a06e-edabc0d7ef00",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, unsafe food handling, medical device details, scannable pattern, child face closeup, car dashboard text, license plate"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-ai-office-hours-20260614-05.png",
+      "url": "/images/illustrations/lph-ai-office-hours-20260614-05.png",
+      "bytes": 1369317,
+      "prompt": "end of week reflection with organized blank question bank cards, no words",
+      "seed": 202606140305,
+      "prompt_id": "92f8b1ec-6828-4331-bbbf-b81eef50941a",
+      "raw_output": {
+        "filename": "hermes_batchb_20260614_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, unsafe food handling, medical device details, scannable pattern, child face closeup, car dashboard text, license plate"
+      }
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260614-learnpathhub-contact-sheet.jpg",
+  "visual_qa": "passed final contact sheet QA: topic-accurate, no readable text/logos/UI requiring rejection",
+  "adsense_readiness": "source-backed practical guide, 8 sources, internal links, FAQ/schema, no affiliate filler, 6 GTI13 raster images"
+}
