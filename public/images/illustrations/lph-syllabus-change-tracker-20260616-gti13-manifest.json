@@ -1,0 +1,146 @@
+{
+  "site": "learnpathhub",
+  "slug": "syllabus-change-tracker-weekly-study-plan-2026",
+  "date": "2026-06-16",
+  "generator": "GTI13 direct ComfyUI",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-syllabus-change-tracker-20260616-hero.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1723619,
+      "prompt": "student desk with blank syllabus folder, blank sticky notes, closed laptop, no readable text no calendar grid",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160200,
+      "prompt_id": "1aa30792-b424-4265-883b-d920ff94322f",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-syllabus-change-tracker-20260616-01.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1468134,
+      "prompt": "weekly review setup with plain index cards and colored tabs, no writing, no dates",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160201,
+      "prompt_id": "3ca37eb3-e473-4531-8cda-47c11ad49aac",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-syllabus-change-tracker-20260616-02.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1289447,
+      "prompt": "instructor announcement check scene with closed laptop and notebook turned away, no screen text",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160202,
+      "prompt_id": "7ae35463-3e9e-4181-9274-e77de68b7873",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-syllabus-change-tracker-20260616-03.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1440270,
+      "prompt": "deadline change triage still life with blank colored folders and plain index cards, no papers with lines, no forms, no writing, no calendar grid, no screens",
+      "negative": "text, words, letters, numbers, watermark, logo, brand, readable labels, screen text, fake ui, QR code, barcode, keypad digits, exposed wiring, unsafe knife, blade at table edge, raw meat, forms, documents with writing, calendar, blurry, distorted, clutter",
+      "seed": 202606169003,
+      "prompt_id": "c6f4e93f-91ac-455c-b486-52db12444070",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 4.6,
+      "steps": 30,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_regen_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "qa_regenerated_final": true
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-syllabus-change-tracker-20260616-04.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1382846,
+      "prompt": "study plan adjustment scene with timer face turned away and blank cards, no numbers",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160204,
+      "prompt_id": "e730bbc6-6684-494d-a039-f0f8090af6e7",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-syllabus-change-tracker-20260616-05.png",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1482038,
+      "prompt": "office hours preparation with plain notebook, blank question cards, closed laptop, no text",
+      "negative": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged cords, warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, credentials, login screen, currency, forms, receipts, calendar grid, child face closeup",
+      "seed": 202606160205,
+      "prompt_id": "9986bfc5-ee39-4014-a60e-ad039228baf0",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "cfg": 5.0,
+      "steps": 28,
+      "endpoint_host": "gti13 direct ComfyUI",
+      "raw_output": {
+        "filename": "hermes_batchb_20260616_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ]
+}
