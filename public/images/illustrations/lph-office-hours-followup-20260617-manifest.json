@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-06-16T22:17:21Z",
+  "batch": "B 20260617 cron",
+  "date": "2026-06-17",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels, price tags, receipts, forms, calculators, license plates, warning labels"
+  },
+  "finalized_at": "2026-06-16T22:26:26Z",
+  "site": "learnpathhub",
+  "slug": "office-hours-follow-up-study-plan-2026",
+  "title": "Office Hours Follow-Up Study Plan: Turn One Meeting Into Better Practice",
+  "assets": [
+    {
+      "file": "public/images/illustrations/lph-office-hours-followup-20260617-hero.png",
+      "filename": "lph-office-hours-followup-20260617-hero.png",
+      "prompt": "realistic student study desk after office hours with blank notebook, closed laptop, plain folders, no readable text, no calendar grid, no screens",
+      "seed": 202606172019,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "790c494d-5722-4e5c-987e-5c5accb081d1",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1717240,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/lph-office-hours-followup-20260617-01.png",
+      "filename": "lph-office-hours-followup-20260617-01.png",
+      "prompt": "realistic office hours preparation desk with closed laptop, blank question cards, plain folders, no screen text, no paper writing, no labels",
+      "seed": 202606173012,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d061bd5a-137e-4ac1-8a1d-bad39efd3513",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_final_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok-regenerated",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1389713,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/lph-office-hours-followup-20260617-02.png",
+      "filename": "lph-office-hours-followup-20260617-02.png",
+      "prompt": "realistic student leaving campus study meeting with plain folder and notebook, no faces closeup, no signage no text",
+      "seed": 202606172021,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a25480e4-cf5c-4fe2-948c-48b8ef1b918c",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1403959,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/lph-office-hours-followup-20260617-03.png",
+      "filename": "lph-office-hours-followup-20260617-03.png",
+      "prompt": "realistic retrieval practice setup with blank flash cards, textbook closed, pencil, no readable writing",
+      "seed": 202606172022,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "20c3f812-7ad5-4965-91bf-8d48a97192ad",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1542066,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/lph-office-hours-followup-20260617-04.png",
+      "filename": "lph-office-hours-followup-20260617-04.png",
+      "prompt": "realistic revision block planning scene with closed notebook, blank sticky notes, closed laptop, no phone, no screen, no calendar grid, no text",
+      "seed": 202606173013,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a115fb7d-b79d-40e6-be70-6847c99c719f",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_final_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok-regenerated",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1526434,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/lph-office-hours-followup-20260617-05.png",
+      "filename": "lph-office-hours-followup-20260617-05.png",
+      "prompt": "realistic respectful follow up email planning metaphor with closed laptop and blank envelope, no UI no text",
+      "seed": 202606172024,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3acf6b3f-7d37-4929-bd66-85b8dd397757",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260617_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1817801,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa_summary": "Final contact sheet regenerated after rejecting images with labels/screens/off-topic objects; accepted after final visual QA pass.",
+  "contact_sheet_final2": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260617-learnpathhub-contact-sheet-final.jpg"
+}
