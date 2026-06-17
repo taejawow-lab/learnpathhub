@@ -1,0 +1,118 @@
+{
+  "site": "learnpathhub",
+  "slug": "campus-email-phishing-scholarship-scam-checklist-2026",
+  "date": "2026-06-18",
+  "assets": [
+    {
+      "filename": "lph-campus-phishing-20260618-hero.png",
+      "path": "public/images/illustrations/lph-campus-phishing-20260618-hero.png",
+      "url": "/images/illustrations/lph-campus-phishing-20260618-hero.png",
+      "prompt": "student desk with closed laptop, sealed envelope, and campus bag without logos, no screen text",
+      "seed": 618300,
+      "prompt_id": "eefbc992-bfd2-4592-8fb7-b42c61ce1d7c",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "lph-campus-phishing-20260618-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "lph-campus-phishing-20260618-01.png",
+      "path": "public/images/illustrations/lph-campus-phishing-20260618-01.png",
+      "url": "/images/illustrations/lph-campus-phishing-20260618-01.png",
+      "prompt": "hand holding phone face down next to blank notebook and pen, calm study scene, no readable UI",
+      "seed": 618301,
+      "prompt_id": "33e554e7-0187-4f6d-aad5-76357e426a57",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "lph-campus-phishing-20260618-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "lph-campus-phishing-20260618-02.png",
+      "path": "public/images/illustrations/lph-campus-phishing-20260618-02.png",
+      "url": "/images/illustrations/lph-campus-phishing-20260618-02.png",
+      "prompt": "scholarship planning folder with completely blank cards and plain sealed envelopes, no forms, no printed text, no money, no official-looking paperwork, editorial photo",
+      "seed": 718200,
+      "prompt_id": "97355e76-f12e-447c-838e-6b1e8e9ca5f5",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "lph-campus-phishing-20260618-02-regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true
+    },
+    {
+      "filename": "lph-campus-phishing-20260618-03.png",
+      "path": "public/images/illustrations/lph-campus-phishing-20260618-03.png",
+      "url": "/images/illustrations/lph-campus-phishing-20260618-03.png",
+      "prompt": "campus help desk verification concept with closed laptop, plain headset, blank desk cards, no logos, no screens, no readable text, editorial photo",
+      "seed": 718201,
+      "prompt_id": "11ff8a68-9ff3-4125-8b43-f33078a6b1cb",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "lph-campus-phishing-20260618-03-regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated": true
+    },
+    {
+      "filename": "lph-campus-phishing-20260618-04.png",
+      "path": "public/images/illustrations/lph-campus-phishing-20260618-04.png",
+      "url": "/images/illustrations/lph-campus-phishing-20260618-04.png",
+      "prompt": "privacy boundary scene with lockbox, hardware key, and blank cards on desk, no text",
+      "seed": 618304,
+      "prompt_id": "5daf7d49-437b-4cbe-ad30-3e69ad6c8195",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "lph-campus-phishing-20260618-04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "lph-campus-phishing-20260618-05.png",
+      "path": "public/images/illustrations/lph-campus-phishing-20260618-05.png",
+      "url": "/images/illustrations/lph-campus-phishing-20260618-05.png",
+      "prompt": "study group table discussing suspicious email using printed blank cards, no visible names no screens",
+      "seed": 618305,
+      "prompt_id": "82583342-d3c4-46a4-b893-f3a27325818f",
+      "width": 1536,
+      "height": 864,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "endpoint_host": "gti13 direct ComfyUI",
+      "comfy_meta": {
+        "filename": "lph-campus-phishing-20260618-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "gate_reason": "sentinel_unreachable_but_direct_comfyui_ok",
+  "endpoint_host": "gti13 direct ComfyUI",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "final_visual_qa": "regenerated targeted rejected images; final contact sheet required"
+}
