@@ -1,0 +1,158 @@
+{
+  "date": "2026-06-21",
+  "site": "learnpathhub",
+  "slug": "course-deadline-time-zone-calendar-checklist-2026",
+  "endpoint": "GTI13 direct ComfyUI",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-deadline-timezone-20260621-hero.png",
+      "bytes": 1607230,
+      "prompt": "student study desk with closed laptop, blank planner cards, colored sticky notes without writing, no clock",
+      "seed": 202606219320,
+      "prompt_id": "3ff8bfdf-a574-4203-937f-cfd6f1133c3b",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_regen_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, unsafe scene, exposed wiring, fake warning sign, blurry, low resolution, generic stock art, placeholder, child, face, people close up, clock numbers, calendar grid, forms, receipts, currency, calculator"
+      },
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-deadline-timezone-20260621-01.png",
+      "bytes": 1544154,
+      "prompt": "closed laptop beside blank notebook and plain folder for course deadline planning, no screen, no text",
+      "seed": 202606219343,
+      "prompt_id": "ced5163d-812b-49e1-9f06-cc05dfff7426",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_regen_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, unsafe scene, exposed wiring, fake warning sign, blurry, low resolution, generic stock art, placeholder, child, face, people close up, clock numbers, calendar grid, forms, receipts, currency, calculator"
+      },
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-deadline-timezone-20260621-02.png",
+      "bytes": 1698520,
+      "prompt": "time zone planning still life with blank sticky notes and colored blocks, no clocks, no numbers, no calendar grid",
+      "seed": 202606219344,
+      "prompt_id": "9569f0d8-b637-4d23-98a6-42f778de347d",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_regen_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, unsafe scene, exposed wiring, fake warning sign, blurry, low resolution, generic stock art, placeholder, child, face, people close up, clock numbers, calendar grid, forms, receipts, currency, calculator"
+      },
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-deadline-timezone-20260621-03.png",
+      "bytes": 1557512,
+      "prompt": "proof of submission routine with blank folder and dark phone screen no text",
+      "seed": 202606210303,
+      "prompt_id": "90145543-a1e7-45bc-b4d1-ab676914a39d",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, fake warning sign, blurry, low resolution, generic stock art, placeholder, child face closeup, currency, forms, receipts, calculator"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-deadline-timezone-20260621-04.png",
+      "bytes": 1369280,
+      "prompt": "submission proof folder with blank paper sheets and dark face-down phone, no screen, no text",
+      "seed": 202606219346,
+      "prompt_id": "771e780f-dc6d-4a73-b164-05a6aa4eb8d1",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_regen_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, unsafe scene, exposed wiring, fake warning sign, blurry, low resolution, generic stock art, placeholder, child, face, people close up, clock numbers, calendar grid, forms, receipts, currency, calculator"
+      },
+      "regenerated_after_visual_qa": true
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-deadline-timezone-20260621-05.png",
+      "bytes": 1393645,
+      "prompt": "weekly study review desk with closed laptop, blank cards, tidy folders, no calendar, no screen text",
+      "seed": 202606219347,
+      "prompt_id": "2d34c51f-68fb-494f-a766-ff4bb252f3d3",
+      "raw_output": {
+        "filename": "hermes_batchb_20260621_regen_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, unsafe scene, exposed wiring, fake warning sign, blurry, low resolution, generic stock art, placeholder, child, face, people close up, clock numbers, calendar grid, forms, receipts, currency, calculator"
+      },
+      "regenerated_after_visual_qa": true
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260621-learnpathhub-contact-sheet-final.jpg",
+  "windows_contact_sheet": "/mnt/c/Users/k8plus/AppData/Local/hermes/scripts/batch-b-20260621-learnpathhub-contact-sheet-final.jpg",
+  "visual_qa": "final contact sheet regenerated after rejecting unsafe/text/topic-mismatch images",
+  "adsense_readiness": "8 citations, internal links, FAQ/schema, no affiliate filler"
+}
