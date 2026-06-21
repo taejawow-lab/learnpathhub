@@ -1,0 +1,136 @@
+{
+  "site": "learnpathhub",
+  "slug": "recorded-lecture-note-audit-privacy-recall-2026",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "assets": [
+    {
+      "site": "learnpathhub",
+      "slug": "recorded-lecture-note-audit-privacy-recall-2026",
+      "filename": "lph-lecture-note-audit-20260622-hero.png",
+      "file": "public/images/illustrations/lph-lecture-note-audit-20260622-hero.png",
+      "alt": "Recorded lecture note audit desk with privacy-safe active recall setup",
+      "prompt": "premium realistic editorial photo of student desk with laptop blank screen, headphones, closed textbook, blank flashcards, privacy folder, no readable text, no logos",
+      "seed": 202606220213,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a47b59da-fc26-4908-8253-a2aa98a3c540",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00019_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1616700
+    },
+    {
+      "site": "learnpathhub",
+      "slug": "recorded-lecture-note-audit-privacy-recall-2026",
+      "filename": "lph-lecture-note-audit-20260622-01.png",
+      "file": "public/images/illustrations/lph-lecture-note-audit-20260622-01.png",
+      "alt": "Lecture replay with blank screen and course notebook",
+      "prompt": "realistic study desk with laptop dark blank screen, headphones, notebook closed, no writing, no logos",
+      "seed": 202606220214,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "4ff09b33-9d09-4cb4-8e42-15ff4cd0cbe0",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00020_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1139599
+    },
+    {
+      "site": "learnpathhub",
+      "slug": "recorded-lecture-note-audit-privacy-recall-2026",
+      "filename": "lph-lecture-note-audit-20260622-02.png",
+      "file": "public/images/illustrations/lph-lecture-note-audit-20260622-02.png",
+      "alt": "Active recall cards after recorded lecture",
+      "prompt": "realistic tabletop with blank flashcards grouped by color, textbook closed, pencil, no readable text, no logos",
+      "seed": 202606220215,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6934e2af-b2f0-4b16-8e3e-81b46ff6c784",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00021_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1646861
+    },
+    {
+      "site": "learnpathhub",
+      "slug": "recorded-lecture-note-audit-privacy-recall-2026",
+      "filename": "lph-lecture-note-audit-20260622-03.png",
+      "file": "public/images/illustrations/lph-lecture-note-audit-20260622-03.png",
+      "alt": "Privacy check before saving lecture notes",
+      "prompt": "realistic laptop blank screen beside sealed folder and phone face down, no classmate names, no text, no logos",
+      "seed": 202606220216,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "09881cef-eae1-433c-8aaf-49e7ad98d259",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00022_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1274148
+    },
+    {
+      "site": "learnpathhub",
+      "slug": "recorded-lecture-note-audit-privacy-recall-2026",
+      "filename": "lph-lecture-note-audit-20260622-04.png",
+      "file": "public/images/illustrations/lph-lecture-note-audit-20260622-04.png",
+      "alt": "AI summary verification against course materials",
+      "prompt": "realistic study scene with abstract blank assistant panel on laptop, open book with unreadable pages, no UI text, no logos",
+      "seed": 202606220217,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3c13db87-d82b-4cc8-8aec-4fccafa51db1",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00023_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1426170
+    },
+    {
+      "site": "learnpathhub",
+      "slug": "recorded-lecture-note-audit-privacy-recall-2026",
+      "filename": "lph-lecture-note-audit-20260622-05.png",
+      "file": "public/images/illustrations/lph-lecture-note-audit-20260622-05.png",
+      "alt": "Weekly recorded lecture review routine",
+      "prompt": "realistic calm desk with headphones, binder, blank sticky notes, laptop closed, warm light, no text",
+      "seed": 202606220218,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1dc1567c-c6ae-431a-aad2-dbffbc346a76",
+      "comfy_output": {
+        "filename": "hermes_batch_b_20260622_00024_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1376090
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260622-gti13-contact-sheet.jpg",
+  "visual_qa": "pending parent visual inspection before final report"
+}
