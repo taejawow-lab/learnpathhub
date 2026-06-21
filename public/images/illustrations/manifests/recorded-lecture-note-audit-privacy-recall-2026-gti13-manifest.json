@@ -91,27 +91,6 @@
     {
       "site": "learnpathhub",
       "slug": "recorded-lecture-note-audit-privacy-recall-2026",
-      "filename": "lph-lecture-note-audit-20260622-04.png",
-      "file": "public/images/illustrations/lph-lecture-note-audit-20260622-04.png",
-      "alt": "AI summary verification against course materials",
-      "prompt": "realistic study scene with abstract blank assistant panel on laptop, open book with unreadable pages, no UI text, no logos",
-      "seed": 202606220217,
-      "dimensions": [
-        1536,
-        864
-      ],
-      "prompt_id": "3c13db87-d82b-4cc8-8aec-4fccafa51db1",
-      "comfy_output": {
-        "filename": "hermes_batch_b_20260622_00023_.png",
-        "subfolder": "",
-        "type": "output"
-      },
-      "status": "ok",
-      "bytes": 1426170
-    },
-    {
-      "site": "learnpathhub",
-      "slug": "recorded-lecture-note-audit-privacy-recall-2026",
       "filename": "lph-lecture-note-audit-20260622-05.png",
       "file": "public/images/illustrations/lph-lecture-note-audit-20260622-05.png",
       "alt": "Weekly recorded lecture review routine",
@@ -132,5 +111,6 @@
     }
   ],
   "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260622-gti13-contact-sheet.jpg",
-  "visual_qa": "pending parent visual inspection before final report"
+  "visual_qa": "Final QA excluded one generated image: visual QA rejected pseudo-readable text on laptop/document surface. Published article renders 5 accepted GTI13 raster images.",
+  "published_visuals_count": 5
 }
