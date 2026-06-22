@@ -1,0 +1,118 @@
+{
+  "site": "learnpathhub",
+  "slug": "course-notification-overload-weekly-dashboard-audit-2026",
+  "date": "2026-06-23",
+  "assets": [
+    {
+      "filename": "public/images/illustrations/lph-notification-audit-20260623-hero.png",
+      "url": "/images/illustrations/lph-notification-audit-20260623-hero.png",
+      "prompt": "student desk with closed laptop blank planner and headphones, no readable text, no screen UI",
+      "seed": 62323300,
+      "prompt_id": "1d55ed7f-31b8-4988-a397-e400eb4966a3",
+      "source_meta": {
+        "filename": "batch_b_20260623_learnpathhub_0_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2
+    },
+    {
+      "filename": "public/images/illustrations/lph-notification-audit-20260623-01.png",
+      "url": "/images/illustrations/lph-notification-audit-20260623-01.png",
+      "prompt": "open laptop with dark blank screen beside paper planner and pencil, no text no app interface",
+      "seed": 62323301,
+      "prompt_id": "992acee1-0994-41fe-944b-ec6f89382ee3",
+      "source_meta": {
+        "filename": "batch_b_20260623_learnpathhub_1_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2
+    },
+    {
+      "filename": "public/images/illustrations/lph-notification-audit-20260623-02.png",
+      "url": "/images/illustrations/lph-notification-audit-20260623-02.png",
+      "prompt": "blank sticky notes grouped by priority on cork board, no writing no calendar grid",
+      "seed": 62323302,
+      "prompt_id": "c92cbd97-d1bc-41ab-8825-ccf1a09b24cc",
+      "source_meta": {
+        "filename": "batch_b_20260623_learnpathhub_2_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2
+    },
+    {
+      "filename": "public/images/illustrations/lph-notification-audit-20260623-03.png",
+      "url": "/images/illustrations/lph-notification-audit-20260623-03.png",
+      "prompt": "two students reviewing blank cards at table, no faces closeup, no text, academic setting",
+      "seed": 62323303,
+      "prompt_id": "004810f8-1426-4dc1-b4d3-20aaa27c9674",
+      "source_meta": {
+        "filename": "batch_b_20260623_learnpathhub_3_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2
+    },
+    {
+      "filename": "public/images/illustrations/lph-notification-audit-20260623-04.png",
+      "url": "/images/illustrations/lph-notification-audit-20260623-04.png",
+      "prompt": "weekly study review desk with closed laptop, blank index cards, plain pencil, no clock, no screen, no calendar, no writing",
+      "seed": 62323902,
+      "prompt_id": "6fef2459-69c3-4f00-b454-f0c20ed2d893",
+      "source_meta": {
+        "filename": "batch_b_20260623_repair_learnpathhub_62323902_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13_direct_comfyui",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 28,
+      "cfg": 5.2,
+      "site": "learnpathhub"
+    }
+  ]
+}
