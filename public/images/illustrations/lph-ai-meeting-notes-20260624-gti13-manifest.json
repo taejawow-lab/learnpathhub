@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-24",
+  "site": "learnpathhub",
+  "slug": "ai-meeting-notes-class-project-consent-boundaries-2026",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-ai-meeting-notes-20260624-hero.png",
+      "bytes": 1429605,
+      "width": 1536,
+      "height": 864,
+      "prompt": "students in study room with closed laptops and blank notebooks, no text no logos",
+      "seed": 202606240300,
+      "prompt_id": "672acc03-6715-44f9-b336-bea238602126",
+      "raw_output": {
+        "filename": "hermes_batchb_20260624_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, labels, logo, brand, watermark, readable screen, fake user interface, QR code, barcode, document text, distorted hands, child face closeup, unsafe wiring, exposed electrical, fire, smoke, medical claims, blurry, low resolution, generic stock art, placeholder"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-ai-meeting-notes-20260624-01.png",
+      "bytes": 1632713,
+      "width": 1536,
+      "height": 864,
+      "prompt": "group asking consent before recording with blank phone face down, no screen",
+      "seed": 202606240301,
+      "prompt_id": "c331c0ae-6b37-48c6-9382-36806f7173bf",
+      "raw_output": {
+        "filename": "hermes_batchb_20260624_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, labels, logo, brand, watermark, readable screen, fake user interface, QR code, barcode, document text, distorted hands, child face closeup, unsafe wiring, exposed electrical, fire, smoke, medical claims, blurry, low resolution, generic stock art, placeholder"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-ai-meeting-notes-20260624-02.png",
+      "bytes": 1568184,
+      "width": 1536,
+      "height": 864,
+      "prompt": "student reviewing blank index cards beside a closed laptop for AI note accuracy, no handwriting, no documents, no readable text",
+      "seed": 202606249302,
+      "prompt_id": "5e724709-2c74-4e46-b026-67fc9b72a7d2",
+      "raw_output": {
+        "filename": "hermes_batchb_20260624_regen_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 4.8,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, labels, logo, brand, watermark, readable screen, fake user interface, QR code, barcode, document text, handwriting, measuring tape numbers, distorted hands, child face closeup, unsafe wiring, blurry, low resolution, placeholder"
+      },
+      "qa_regenerated_final": true
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-ai-meeting-notes-20260624-03.png",
+      "bytes": 1238507,
+      "width": 1536,
+      "height": 864,
+      "prompt": "project team assigning roles on plain sticky notes with no text",
+      "seed": 202606240303,
+      "prompt_id": "5fcc9d8a-a5cf-423f-a233-bfe762bf1290",
+      "raw_output": {
+        "filename": "hermes_batchb_20260624_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, labels, logo, brand, watermark, readable screen, fake user interface, QR code, barcode, document text, distorted hands, child face closeup, unsafe wiring, exposed electrical, fire, smoke, medical claims, blurry, low resolution, generic stock art, placeholder"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-ai-meeting-notes-20260624-04.png",
+      "bytes": 1367654,
+      "width": 1536,
+      "height": 864,
+      "prompt": "privacy safe archive folder and blank laptop screen for class notes",
+      "seed": 202606240304,
+      "prompt_id": "0865f6c5-aa3c-4c95-b969-302433671054",
+      "raw_output": {
+        "filename": "hermes_batchb_20260624_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, labels, logo, brand, watermark, readable screen, fake user interface, QR code, barcode, document text, distorted hands, child face closeup, unsafe wiring, exposed electrical, fire, smoke, medical claims, blurry, low resolution, generic stock art, placeholder"
+      }
+    }
+  ]
+}
