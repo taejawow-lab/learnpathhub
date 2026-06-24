@@ -1,0 +1,153 @@
+{
+  "date": "2026-06-25",
+  "site": "learnpathhub",
+  "slug": "online-course-discussion-citation-integrity-checklist-2026",
+  "endpoint": "redacted-direct-gti13",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": "1536x864",
+  "assets": [
+    {
+      "suffix": "hero",
+      "filename": "public/images/illustrations/lph-discussion-citation-20260625-hero.png",
+      "bytes": 1409118,
+      "prompt": "student writing online course discussion with blank laptop screen and notebook, no text no logos",
+      "seed": 202606250300,
+      "prompt_id": "bca1e99b-ea1b-4f7b-8536-df4c306ab09c",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_learnpathhub_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, currency, receipts, forms, readable documents"
+      }
+    },
+    {
+      "suffix": "01",
+      "filename": "public/images/illustrations/lph-discussion-citation-20260625-01.png",
+      "bytes": 1562838,
+      "prompt": "citation planning desk with blank source cards and closed books, no writing",
+      "seed": 202606250301,
+      "prompt_id": "8d2d18d5-0a30-4aa1-91c7-7b31ea17a92e",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_learnpathhub_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, currency, receipts, forms, readable documents"
+      }
+    },
+    {
+      "suffix": "02",
+      "filename": "public/images/illustrations/lph-discussion-citation-20260625-02.png",
+      "bytes": 1349934,
+      "prompt": "student holding a tablet with completely blank dark screen at study table, no interface, no text, no writing, no logos",
+      "seed": 202606251398,
+      "prompt_id": "493fee99-dd00-4515-925e-e0d9ca08f29c",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_final_learnpathhub_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 30,
+        "cfg": 5.0,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, license plate, keypad numbers, calculator, currency, receipts, forms, readable documents, notebook writing, calendar grid"
+      },
+      "regenerated_final_qa": true
+    },
+    {
+      "suffix": "03",
+      "filename": "public/images/illustrations/lph-discussion-citation-20260625-03.png",
+      "bytes": 1286385,
+      "prompt": "privacy safe discussion post workflow with plain folders and sticky notes no text",
+      "seed": 202606250303,
+      "prompt_id": "8b3d2b88-2a1a-4335-9db7-bebb891ac826",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_learnpathhub_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, currency, receipts, forms, readable documents"
+      }
+    },
+    {
+      "suffix": "04",
+      "filename": "public/images/illustrations/lph-discussion-citation-20260625-04.png",
+      "bytes": 1480420,
+      "prompt": "peer reply planning scene with two blank notebooks and calm study table",
+      "seed": 202606250304,
+      "prompt_id": "3dd5ff88-36e8-4f68-8f48-f675b6d36aaf",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_learnpathhub_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, currency, receipts, forms, readable documents"
+      }
+    },
+    {
+      "suffix": "05",
+      "filename": "public/images/illustrations/lph-discussion-citation-20260625-05.png",
+      "bytes": 1377907,
+      "prompt": "final review checklist scene with closed laptop blank cards and pen, no words",
+      "seed": 202606250305,
+      "prompt_id": "fc83f380-a346-4dd0-ba21-7ce30fb9ac81",
+      "raw_output": {
+        "filename": "hermes_batchb_20260625_learnpathhub_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "width": 1536,
+      "height": 864,
+      "workflow": {
+        "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+        "steps": 28,
+        "cfg": 5.2,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, fake user interface, QR code, barcode, distorted hands, deformed anatomy, unsafe scene, exposed wiring, damaged electrical cords, fake warning sign, blurry, low resolution, generic stock art, placeholder, cartoon, plastic skin, cluttered mess, medical device details, scannable pattern, child face closeup, currency, receipts, forms, readable documents"
+      }
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-b-20260625-learnpathhub-contact-sheet-final.jpg",
+  "visual_qa": "accepted after contact-sheet QA; rejected/regenerated text/UI/topic-mismatch assets before commit",
+  "adsense_readiness": "source-backed practical guide, 8 citations, internal links, FAQ/schema, no affiliate filler, GTI13 provenance committed"
+}
