@@ -1,0 +1,51 @@
+{
+  "endpoint": "GTI15 ComfyUI endpoint redacted in report; source host gti15, generated 2026-06-30 via generate_natural_blog_candidates.py",
+  "dimensions": "1536x864",
+  "qa": "combined contact sheets visually inspected; rejected images excluded from MDX/manifests",
+  "site": "learnpathhub",
+  "slug": "open-book-exam-source-sheet-citation-map-plan-2026",
+  "accepted_count": 5,
+  "images": [
+    {
+      "published_file": "lph-open-book-source-map-20260630-01.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/learnpathhub/prompt1/20260630_071933_krea_2399056131.png",
+      "engine": "krea",
+      "seed": "2399056131",
+      "dimensions": "1536x864",
+      "accepted": true
+    },
+    {
+      "published_file": "lph-open-book-source-map-20260630-02.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/learnpathhub/prompt1/20260630_072026_juggernaut_2399056133.png",
+      "engine": "juggernaut",
+      "seed": "2399056133",
+      "dimensions": "1536x864",
+      "accepted": true
+    },
+    {
+      "published_file": "lph-open-book-source-map-20260630-03.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/learnpathhub/prompt2/20260630_072044_krea_3362249572.png",
+      "engine": "krea",
+      "seed": "3362249572",
+      "dimensions": "1536x864",
+      "accepted": true
+    },
+    {
+      "published_file": "lph-open-book-source-map-20260630-04.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/learnpathhub/prompt2/20260630_072120_realvis_3362249573.png",
+      "engine": "realvis",
+      "seed": "3362249573",
+      "dimensions": "1536x864",
+      "accepted": true
+    },
+    {
+      "published_file": "lph-open-book-source-map-20260630-05.png",
+      "source_candidate": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch_b_20260630_gti15/learnpathhub/prompt2/20260630_072138_juggernaut_3362249574.png",
+      "engine": "juggernaut",
+      "seed": "3362249574",
+      "dimensions": "1536x864",
+      "accepted": true
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/lph-open-book-source-map-20260630-accepted-contact-sheet.jpg"
+}
